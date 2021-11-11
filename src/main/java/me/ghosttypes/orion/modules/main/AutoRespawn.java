@@ -41,7 +41,7 @@ public class AutoRespawn extends Module {
     private int messageI = 0;
 
     public AutoRespawn() {
-        super(Orion.CATEGORY, "auto-respawn", "Automatically respawns after death.");
+        super(Orion.CATEGORY, "orion-auto-respawn", "Automatically respawns after death.");
     }
 
     @EventHandler
