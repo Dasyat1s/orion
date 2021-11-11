@@ -56,7 +56,7 @@ public class PopCounter extends Module {
     private int updateWait = 45;
 
     public PopCounter() {
-        super(Orion.CATEGORY, "pop-counter", "Count player's totem pops.");
+        super(Orion.CATEGORY, "orion-pop-counter", "Count player's totem pops.");
     }
     private int announceWait;
 
