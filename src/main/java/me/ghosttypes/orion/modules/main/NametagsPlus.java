@@ -82,7 +82,7 @@ public class NametagsPlus extends Module {
     private final List<Entity> entityList = new ArrayList<>();
 
     public NametagsPlus() {
-        super(Orion.CATEGORY, "orion-nametags-plus", "Cooler nametags.");
+        super(Orion.CATEGORY, "nametags-++", "Cooler nametags.");
     }
 
     private static String ticksToTime(int ticks) {
