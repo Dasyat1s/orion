@@ -21,7 +21,7 @@ public class BurrowAlert extends Module {
     private final Setting<Integer> range = sgGeneral.add(new IntSetting.Builder().name("range").description("How far away from you to check for burrowed players.").defaultValue(2).min(0).sliderMax(10).build());
 
     public BurrowAlert() {
-        super(Orion.CATEGORY, "orion-burrow-alert", "Alerts you when players are burrowed.");
+        super(Orion.CATEGORY, "burrow-alert-+", "Alerts you when players are burrowed.");
     }
 
     private int burrowMsgWait;
