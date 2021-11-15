@@ -73,7 +73,7 @@ public class SelfTrapPlus extends Module {
 
 
     public SelfTrapPlus(){
-        super(Orion.CATEGORY, "orion-self-trap-plus", "Places obsidian around your head.");
+        super(Orion.CATEGORY, "self-trap-+", "Places obsidian around your head.");
     }
 
     @Override
