@@ -57,7 +57,7 @@ public class AutoCityPlus extends Module {
     private final Setting<SettingColor> lineColor = sgRender.add(new ColorSetting.Builder().name("line-color").description("The line color.").defaultValue(new SettingColor(15, 255, 211)).build());
 
     public AutoCityPlus() {
-        super(Orion.CATEGORY, "orion-auto-city-plus", "Auto city but better.");
+        super(Orion.CATEGORY, "auto-city-+", "Auto city but better.");
     }
 
     private PlayerEntity target;
