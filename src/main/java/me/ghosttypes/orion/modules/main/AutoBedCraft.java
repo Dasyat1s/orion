@@ -49,7 +49,7 @@ public class AutoBedCraft extends Module {
     private final Setting<Double> minHealth = sgAuto.add(new DoubleSetting.Builder().name("min-health").description("Min health require to activate.").defaultValue(10).min(1).max(36).sliderMax(36).build());
 
     public AutoBedCraft() {
-        super(Orion.CATEGORY, "auto-bed-craft", "Automatically craft beds.");
+        super(Orion.CATEGORY, "auto-bed-craft-+", "Automatically craft beds.");
     }
 
 
