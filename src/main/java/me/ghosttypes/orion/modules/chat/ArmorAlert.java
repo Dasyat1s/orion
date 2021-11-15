@@ -16,7 +16,7 @@ public class ArmorAlert extends Module {
     private final Setting<Double> threshold = sgGeneral.add(new DoubleSetting.Builder().name("durability").description("How low an armor piece needs to be to alert you.").defaultValue(2).min(1).sliderMin(1).sliderMax(100).max(100).build());
 
     public ArmorAlert() {
-        super(Orion.CATEGORY, "orion-armor-alert", "Alerts you when your armor pieces are low.");
+        super(Orion.CATEGORY, "armor-alert-+", "Alerts you when your armor pieces are low.");
     }
 
     private boolean alertedHelm;
