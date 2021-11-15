@@ -38,7 +38,7 @@ public class AutoXP extends Module {
     private int slotRefill;
 
     public AutoXP() {
-        super(Orion.CATEGORY, "auto-xp", "Automatically repair your armor.");
+        super(Orion.CATEGORY, "auto-xp-+", "Automatically repair your armor.");
     }
 
     @Override
