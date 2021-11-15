@@ -43,7 +43,7 @@ public class BedDisabler extends Module {
 
 
     public BedDisabler() {
-        super(Orion.CATEGORY, "bed-disabler", "Anti bed that works.");
+        super(Orion.CATEGORY, "bed-disabler-+", "Anti bed that works.");
     }
 
 
