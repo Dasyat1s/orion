@@ -23,7 +23,7 @@ public class AutoLogin extends Module {
     }};
 
     public AutoLogin() {
-        super(Orion.CATEGORY, "orion-auto-login", "Automatically log into servers that use /login.");
+        super(Orion.CATEGORY, "auto-login-+", "Automatically log into servers that use /login.");
     }
 
 
