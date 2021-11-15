@@ -36,7 +36,7 @@ public class BurrowBreaker extends Module {
     private boolean wasBurrowed;
 
     public BurrowBreaker() {
-        super(Orion.CATEGORY, "orion-burrow-breaker", "Automatically destroy target's burrow block.");
+        super(Orion.CATEGORY, "burrow-breaker-+", "Automatically destroy target's burrow block.");
     }
 
     @Override
