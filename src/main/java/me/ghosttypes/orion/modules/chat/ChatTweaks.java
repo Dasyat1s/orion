@@ -34,7 +34,7 @@ public class ChatTweaks extends Module {
     RainbowColor prefixChroma = new RainbowColor();
 
     public ChatTweaks() {
-        super(Orion.CATEGORY, "orion-better-chat-plus", "Various chat improvements.");
+        super(Orion.CATEGORY, "better-chat-+", "Various chat improvements.");
     }
 
 
