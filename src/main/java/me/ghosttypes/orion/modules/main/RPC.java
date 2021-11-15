@@ -32,7 +32,7 @@ public class RPC extends Module {
     public static final DiscordRPC instance = DiscordRPC.INSTANCE;
 
     public RPC() {
-        super(Orion.CATEGORY, "RPC", "Orion RPC for Discord!");
+        super(Orion.CATEGORY, "RPC-+", "Orion RPC for Discord!");
     }
     private int alertDelay = 0;
     private int updateDelay;
